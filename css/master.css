@@ -6,6 +6,7 @@ body {
 
 h1 {
   margin: 0;
+  letter-spacing: 6px;
 }
 
 .resumebody {
@@ -15,14 +16,46 @@ h1 {
   padding: 75px 100px 75px 75px;
 }
 
+.intro p {
+  margin-top: 0;
+}
+
+.job {
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.exp {
+  background-color: lightblue;
+  padding: 20px 35px 20px 20px;
+  border-radius: 10px;
+  color: #902c2c;
+}
+
+.exp h2 {
+  color: teal;
+  margin: 0;
+}
+
 .exp li {
-  line-height: 1.5;
+  line-height: 1.2;
+  margin: 25px 0px;
 }
 
 .skills {
-
+  padding: 20px 35px 20px 20px;
+  background-color: lightgreen;
+  border-radius: 20px;
 }
 
-.edu {
+.skills h2 {
+  color: Green;
+  margin: 0;
+}
 
+.skills li{
+  font-weight: bold;
+  list-style: armenian;
+  color: #bc00f5;
 }
